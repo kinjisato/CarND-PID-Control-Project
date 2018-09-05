@@ -65,10 +65,21 @@ When I compared the total CTE and PID error, PID was better than PD. So this mea
 
 | Components    | Total CTE (err) | Total PID error
 |:-------------:|:---------------:|:---------------:|
-| PI            | 415.061         | 536.334
+| PD            | 415.061         | 536.334
 | PID         	| 219.873         | 321.041 
 
 #### Describe how the final hyperparameters were chosen.
+I implemented Twiddle method that explained in the lecture, and acitivated Twiddle.
+
+```C++
+// update pid error
+            pid.UpdateError(cte);
+            // Twiddle? uncomment below
+            // pid.Twiddle_PID(cte);
+            
+            // calc total pid error
+            double total_error = pid.TotalError();
+```
 
 
 ---
