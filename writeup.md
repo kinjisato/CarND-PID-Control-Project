@@ -9,12 +9,16 @@
 ### Writeup
 
 #### 1. Compilation
-Code must compile without errors with cmake and make.
 
+1. Clone this repo.
+2. Make a build directory: `mkdir build && cd build`
+3. Compile: `cmake .. && make`
+4. Run it: `./pid`. 
 
-### Histogram of Oriented Gradients (HOG)
+#### 2. Implementation
+The PID procedure follows what was taught in the lessons.
 
-#### 1. Explain how (and identify where in your code) you extracted HOG features from the training images.
+#### Describe the effect each of the P, I, D components had in your implementation.
 
 The code for this step is contained in the first code cell of the IPython notebook (or in lines # through # of the file called `some_file.py`).  
 
