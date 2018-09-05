@@ -63,6 +63,11 @@ When I compared the total CTE and PID error, PID was better than PD. So this mea
 ![alt text][image3]
 ![alt text][image4]
 
+| Components    | Total CTE (err) | Total PID error
+|:-------------:|:---------------:|:---------------:|
+| PI            | 415.061         | 536.334
+| PID         	| 219.873         | 321.041 
+
 #### Describe how the final hyperparameters were chosen.
 
 
