@@ -8,16 +8,23 @@
 ---
 ### Writeup
 
-#### 1. Compilation
+---
+
+### Compilation
 
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./pid`. 
 
-#### 2. Implementation
+---
+
+### Implementation
 The PID procedure follows what was taught in the lessons.
 
+---
+
+### Reflection
 #### Describe the effect each of the P, I, D components had in your implementation.
 
 The code for this step is contained in the first code cell of the IPython notebook (or in lines # through # of the file called `some_file.py`).  
