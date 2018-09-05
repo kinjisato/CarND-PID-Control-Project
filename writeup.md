@@ -60,8 +60,11 @@ When I compared the total CTE and PID error, PID was better than PD. So this mea
 
 [PID component](./results/003_PID2.mov)
 
-[image3]: ./results/PD_error.png
-[image4]: ./results/PID_error.png
+![alt text][image3]
+![alt text][image4]
+
+#### Describe how the final hyperparameters were chosen.
+
 
 ---
 
