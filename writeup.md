@@ -1,5 +1,13 @@
 ##  CarND-Controls-PID
 
+[//]: # (Image References)
+[image1]: ./results/Lecture_P.png
+[image2]: ./results/Lecture_PD.png
+[image3]: ./results/PD_error.png
+[image3]: ./results/PID_error.png
+
+[video1]: ./results/001_P2.mov
+
 ---
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/824/view) Points
@@ -26,15 +34,16 @@ The PID procedure follows what was taught in the lessons.
 
 ### Reflection
 #### Describe the effect each of the P, I, D components had in your implementation.
-1. P component
+##### P component
 As fisrt, I used only P components. P = 0.1.
 When the car was running, oscillation became bigger and bigger, and then finally car went out from the course.
 As explained in the lecture, using only P component made oscillation.
 [P component](CarND-PID-Control-Project/results/001_P2.mov)
+[P component](./results/001_P2.mov)
+![alt text][image1]
 
 
-
-2. P and D components
+##### P and D components
 Second, I used P and D components. P = 0.1, D = 1.0
 As explained in the lecture, D component improved oscillation.
 
