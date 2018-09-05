@@ -4,9 +4,11 @@
 [image1]: ./results/Lecture_P.png
 [image2]: ./results/Lecture_PD.png
 [image3]: ./results/PD_error.png
-[image3]: ./results/PID_error.png
+[image4]: ./results/PID_error.png
 
 [video1]: ./results/001_P2.mov
+[video2]: ./results/002_P2.mov
+[video3]: ./results/003_P2.mov
 
 ---
 
@@ -38,16 +40,28 @@ The PID procedure follows what was taught in the lessons.
 As fisrt, I used only P components. P = 0.1.
 When the car was running, oscillation became bigger and bigger, and then finally car went out from the course.
 As explained in the lecture, using only P component made oscillation.
-[P component](CarND-PID-Control-Project/results/001_P2.mov)
+
 [P component](./results/001_P2.mov)
+
 ![alt text][image1]
 
 
 ##### P and D components
-Second, I used P and D components. P = 0.1, D = 1.0
+Second, I used P and D components. P = 0.1, D = 1.0. 
 As explained in the lecture, D component improved oscillation.
 
+[PD components](./results/002_P2.mov)
 
+![alt text][image2]
+
+##### P.I.D components
+Finally, I used P,I,D components. P = 0.1, D = 1.0 and I = 0.0001. 
+When I compared the total CTE and PID error, PID was better than PD. So this means that PID made car run closer to the target line of track.
+
+[image3]: ./results/PD_error.png
+[image4]: ./results/PID_error.png
+
+---
 
 The code for this step is contained in the first code cell of the IPython notebook (or in lines # through # of the file called `some_file.py`).  
 
