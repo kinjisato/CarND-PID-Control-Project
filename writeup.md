@@ -26,6 +26,19 @@ The PID procedure follows what was taught in the lessons.
 
 ### Reflection
 #### Describe the effect each of the P, I, D components had in your implementation.
+1. P component
+As fisrt, I used only P components. P = 0.1.
+When the car was running, oscillation became bigger and bigger, and then finally car went out from the course.
+As explained in the lecture, using only P component made oscillation.
+[P component](CarND-PID-Control-Project/results/001_P2.mov)
+
+
+
+2. P and D components
+Second, I used P and D components. P = 0.1, D = 1.0
+As explained in the lecture, D component improved oscillation.
+
+
 
 The code for this step is contained in the first code cell of the IPython notebook (or in lines # through # of the file called `some_file.py`).  
 
