@@ -50,18 +50,22 @@ As explained in the lecture, using only P component made oscillation.
 Second, I used P and D components. P = 0.1, D = 1.0. 
 As explained in the lecture, D component improved oscillation.
 
-[PD components](./results/002_P2.mov)
+[PD component](./results/002_PD2.mov)
 
 ![alt text][image2]
 
 ##### P.I.D components
 Finally, I used P,I,D components. P = 0.1, D = 1.0 and I = 0.0001. 
-When I compared the total CTE and PID error, PID was better than PD. So this means that PID made car run closer to the target line of track.
+When I compared the total CTE and PID error, PID was better than PD. So this means that PID made car run closer to the target line of track, and bias of PID was better than bias of PI.
+
+[PID component](./results/003_PID2.mov)
 
 [image3]: ./results/PD_error.png
 [image4]: ./results/PID_error.png
 
 ---
+
+
 
 The code for this step is contained in the first code cell of the IPython notebook (or in lines # through # of the file called `some_file.py`).  
 
